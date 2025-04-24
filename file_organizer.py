@@ -1,3 +1,5 @@
+# A Python script to categorize and organize files in a directory based on their extensions. It supports creating an organized folder structure, copying files into categorized subfolders, and optionally deleting the original files
+
 import os
 from collections import defaultdict
 from pathlib import Path
