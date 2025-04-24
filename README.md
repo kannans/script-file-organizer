@@ -42,12 +42,14 @@ Input
 
 Suppose the folder contains the following files:
 
+```
 /example-folder
-file1.jpg
-file2.pdf
-file3.mp4
-file4.docx
-file5.jpg
+  file1.jpg
+  file2.pdf
+  file3.mp4
+  file4.docx
+  file5.jpg
+```
 
 ##### Script Execution
 
@@ -55,6 +57,7 @@ Enter folder path to categorize: /example-folder
 
 Categorized File Tree:
 
+```
 📁 Images
 └── file1.jpg
 └── file5.jpg
@@ -63,6 +66,7 @@ Categorized File Tree:
 └── file4.docx
 📁 Videos
 └── file3.mp4
+```
 
 Do you want to copy the files to an organized folder? (yes/no): yes
 
@@ -70,18 +74,20 @@ Do you want to copy the files to an organized folder? (yes/no): yes
 
 ##### Output Folder Structure
 
+```
 /example-folder/Organized
-/Images
-/example-folder
-file1.jpg
-file5.jpg
-/Documents
-/example-folder
-file2.pdf
-file4.docx
-/Videos
-/example-folder
-file3.mp4
+    /Images
+        /example-folder
+            file1.jpg
+            file5.jpg
+    /Documents
+        /example-folder
+            file2.pdf
+            file4.docx
+    /Videos
+        /example-folder
+            file3.mp4
+```
 
 #### Notes
 
